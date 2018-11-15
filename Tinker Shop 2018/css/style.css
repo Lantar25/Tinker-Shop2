@@ -1,0 +1,167 @@
+/*General Style*/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	margin: 0; 
+	padding: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+p {
+	font-size: 13px;
+	line-height: 1.3em;
+}
+main {
+
+}
+.conteiner {
+	margin:0 auto;
+	padding: 0 auto;
+	width: 1200px;
+	height: 100%;	
+}
+/*HEADER*/
+.header  {
+	margin: 0;
+	padding: 0;
+	
+}
+.conteiner_border {
+	margin:0 auto;
+	padding: 0 auto;
+}
+#border {
+	background-image: url('../image/T2B2.png');
+	min-height: 330px;
+	background-repeat: no-repeat;
+	background:cover;
+	background-position: center;
+	top: 0px;
+	
+}
+/*HEADER END*/
+/*NAV*/
+.page-navigation {
+	background-color: #222;
+	border-color: #9d9d9d;
+	min-height: 64px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.page-navigation li {
+ 	float: left;
+ 	width: 33%;
+}
+.page-navigation a {
+	display: block;
+	color: #8d8d8d;
+	line-height: 4em;
+	font-weight: bold;
+}
+.page-navigation li a:hover {
+	color: #9c4c12;
+	background-color: black;
+}
+/*NAV END*/
+/*MAIN*/
+}
+.collections {
+	overflow: auto;
+	height: 80%;
+
+}
+.collection-title {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #777;
+	font-size: 36px;
+	text-align: center;
+}
+.collection-title small {
+	color: gray;
+	font-size: 70%
+}
+.collection-item-outer{
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	width: 300px;
+	box-sizing: border-box;
+	background: #f0f1f2;
+	height: 80%;
+	}
+.collections > div:first-child {
+	padding-left: 0;
+	padding-right: 10px; 
+}
+.collections > div:last-child {
+	padding-right: 0;
+	padding-left: 10px;
+}
+.collection-item {
+	border: 3px solid #959595;
+
+}
+.collection-item img {
+	width: 100%;
+}
+.collection-text {
+	padding: 0 20px 20px 20px;
+}
+.collection-text h3 {
+	color: black;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+.collection-text p {
+	height: 80px;
+	overflow: hidden;
+
+}
+.collection-text button {
+	width: 49%;
+	padding: 10px;
+	border:5px solid transparent;
+	border-radius:5px;
+	background: ;
+	outline: none;
+	font-weight: bold;
+	color: black;
+}
+.collection-text button:hover {
+	background: black;
+	color: #9c4c12;
+}
+.collection-text-garantii {
+	text-align:left;
+	font-size: 150%;
+	height: 80%;
+	background: #f0f1f2;	
+	padding: 70px 500px 70px 100px;
+	
+}
+.collection-text-garantii p {
+font-size: 130%
+}
+/* FOOTER */
+.footer {
+	background-color: #222;
+	color: white;
+	padding: 15px 0;
+	bottom: 0px;
+	clear:both; 
+	background-position: center;
+	text-align: center;
+}
